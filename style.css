@@ -1,0 +1,99 @@
+header {
+    height: 148px;
+    width: 100%;
+    background-color: blue;
+    border-radius: 10px;
+    bottom: 20px;
+}
+
+.header {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white;
+    display: inline-block;
+
+}
+
+.header>h1 {
+    position: relative;
+    top: -1px;
+    left: 90px;
+    transform: translate(-65px, -29px);
+    display: inline-block;
+    padding: -30px;
+    
+
+}
+
+.header img {
+    height: 90px;
+    display: inline;
+    margin-top: 25px;
+    margin-left: 30px;
+    overflow: hidden;
+}
+main{
+  
+    height: 300pt;
+    width: auto;
+    position: relative;
+}
+footer{
+    color: whitesmoke;
+    height: 49px;
+    max-width: 100%;
+    background-color: black;
+    border-radius: 10px;
+    transform: translateY(-1px);
+    
+}
+footer p{
+   
+    display: block;
+    margin: 0;
+    text-align: center;
+}
+aside{
+    
+        position: absolute;
+        width: 10%; 
+        background-color: rgb(228, 219, 219);
+        height: inherit; 
+        border-radius: 10px;
+        border-style:none solid none none ;
+        overflow: hidden;
+        
+    
+}
+.frame-side{
+    
+    height: 40px;
+    width: 100%;
+    
+}
+article{
+    display: inline-block;
+    left: 314px;
+    
+    height: inherit;
+    width: 74.5%;
+}
+iframe{
+    height: 298pt;
+    width: 120%;
+    display: block;
+    position: relative;
+    left: 128px;
+   /* border: 1px solid black; */
+}
+.frame-side li{
+   
+    color: blue;
+}
+a{
+    text-decoration: none;
+    
+    display: inline-block;
+}
+body{
+    max-width:100% ;
+}
