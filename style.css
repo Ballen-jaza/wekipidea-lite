@@ -30,6 +30,7 @@ header {
     margin-top: 25px;
     margin-left: 30px;
     overflow: hidden;
+    cursor: pointer;
 }
 main{
   
@@ -52,6 +53,11 @@ footer p{
     margin: 0;
     text-align: center;
 }
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    text-align: center;
+}
 aside{
     
         position: absolute;
@@ -63,6 +69,9 @@ aside{
         overflow: hidden;
         
     
+}
+aside li{
+    margin-top: 40px;
 }
 .frame-side{
     
@@ -91,9 +100,20 @@ iframe{
 }
 a{
     text-decoration: none;
-    
     display: inline-block;
 }
 body{
     max-width:100% ;
+}
+a:hover{
+    color: black;
+    background-color: #daa520;
+}
+li{
+    list-style-type: none;
+}
+
+::selection{
+    background-color: #daa520;
+    color: #000000;
 }
