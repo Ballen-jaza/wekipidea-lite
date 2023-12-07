@@ -121,8 +121,9 @@ li{
     background-color: #daa520;
     color: #000000;
 }
+
 a:focus{
-    background-color: greenyellow;
+    background-color: #adff2f;
     color: #000000;
 }
 a:active{
