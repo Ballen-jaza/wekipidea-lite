@@ -117,3 +117,11 @@ li{
     background-color: #daa520;
     color: #000000;
 }
+a:focus{
+    background-color: greenyellow;
+}
+a:active{
+    background-color: black;
+    color: black;
+}
+
