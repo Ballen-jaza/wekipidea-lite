@@ -4,6 +4,8 @@ header {
     background-color: blue;
     border-radius: 10px;
     bottom: 20px;
+    overflow: hidden;
+    z-index: -1;
 }
 
 .header {
@@ -93,6 +95,8 @@ iframe{
     position: relative;
     left: 128px;
    /* border: 1px solid black; */
+   position: relative;
+   z-index: 1;
 }
 .frame-side li{
    
@@ -119,6 +123,7 @@ li{
 }
 a:focus{
     background-color: greenyellow;
+    color: #000000;
 }
 a:active{
     background-color: black;
